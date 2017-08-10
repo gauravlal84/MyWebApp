@@ -20,9 +20,9 @@
     <!-- LIST -->
     <target name="list">
         <echo message="Listing source folder ..."/>
-        <exec executable="ls">
+        <!-- <exec executable="Dir"> -->
             <!-- <arg line=" C:\ ${source}" /> -->
-        </exec>
+        <!-- </exec> -->
     </target>
     <!-- END -->
 
