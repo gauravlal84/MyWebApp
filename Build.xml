@@ -3,7 +3,7 @@
 <project name="MyWebApp" default="full-suite" basedir=".">
 
     <!-- GLOBAL VARIABLES -->
-    <property name="source" value="app" />
+    <property name="source" value="Users" />
     <!-- END -->
 
     <!-- AVAILABLE COMMANDS -->
@@ -20,8 +20,8 @@
     <!-- LIST -->
     <target name="list">
         <echo message="Listing source folder ..."/>
-        <exec executable="ls">
-            <arg line="-l ${source}" />
+        <exec executable="Dir">
+            <arg line=" C:\ ${source}" />
         </exec>
     </target>
     <!-- END -->
