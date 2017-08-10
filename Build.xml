@@ -7,19 +7,19 @@
     <!-- END -->
 
     <!-- AVAILABLE COMMANDS -->
-    <target name="full-suite" depends="list, date" />
+    <target name="full-suite" depends="msg1, msg2" />
     <!-- END -->
 
-    <!-- DATE -->
-    <target name="date">
-        <echo message="Printing system date ..."/>
+    <!-- MSG 1 -->
+    <target name="msg1">
+        <echo message="Hello..."/>
         <!-- <exec executable="date" /> -->
     </target>
     <!-- END -->
 
-    <!-- LIST -->
-    <target name="list">
-        <echo message="Listing source folder ..."/>
+    <!-- MSG 2 -->
+    <target name="msg2">
+        <echo message="How are you..."/>
         <!-- <exec executable="Dir"> -->
             <!-- <arg line=" C:\ ${source}" /> -->
         <!-- </exec> -->
