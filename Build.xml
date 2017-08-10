@@ -21,7 +21,7 @@
     <target name="list">
         <echo message="Listing source folder ..."/>
         <exec executable="Dir">
-            <arg line=" C:\ ${source}" />
+            <!-- <arg line=" C:\ ${source}" /> -->
         </exec>
     </target>
     <!-- END -->
