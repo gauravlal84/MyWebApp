@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project name="MyWebApp" default="full-suite" basedir="..">
+<project name="MyWebApp" default="full-suite" basedir=".">
 
     <!-- GLOBAL VARIABLES -->
     <property name="source" value="Users" />
@@ -13,14 +13,14 @@
     <!-- DATE -->
     <target name="date">
         <echo message="Printing system date ..."/>
-        <exec executable="date" />
+        <!-- <exec executable="date" /> -->
     </target>
     <!-- END -->
 
     <!-- LIST -->
     <target name="list">
         <echo message="Listing source folder ..."/>
-        <exec executable="Dir">
+        <exec executable="ls">
             <!-- <arg line=" C:\ ${source}" /> -->
         </exec>
     </target>
